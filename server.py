@@ -7,7 +7,7 @@ from fastmcp import FastMCP
 mcp = FastMCP("chess-com")
 
 BASE = "https://api.chess.com/pub"
-HEADERS = {"User-Agent": "chesscom-mcp/1.0 (contact: gabin.barriere2012@gmail.com }
+HEADERS = {"User-Agent": "chesscom-mcp/1.0 (contact: gabin.barriere2012@gmail.com)"}
 
 
 async def fetch(path: str):
